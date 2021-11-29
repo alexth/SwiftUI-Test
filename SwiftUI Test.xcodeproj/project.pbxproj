@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5083559274D99A5006AEF28 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5083558274D99A5006AEF28 /* PlayerView.swift */; };
+		E508355B274D9A19006AEF28 /* CreateGuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508355A274D9A19006AEF28 /* CreateGuestView.swift */; };
+		E508355D274D9A82006AEF28 /* UniversalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508355C274D9A82006AEF28 /* UniversalTextField.swift */; };
+		E5083560274D9AFA006AEF28 /* KeyboardHeightWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508355F274D9AFA006AEF28 /* KeyboardHeightWorker.swift */; };
+		E5083562274D9B32006AEF28 /* LoginBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5083561274D9B32006AEF28 /* LoginBlurView.swift */; };
+		E5083565274D9B72006AEF28 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5083564274D9B72006AEF28 /* View.swift */; };
+		E5083568274D9BAD006AEF28 /* RoundedCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5083567274D9BAD006AEF28 /* RoundedCornersShape.swift */; };
+		E508356A274D9BE0006AEF28 /* AnimationCompletionObserverModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5083569274D9BE0006AEF28 /* AnimationCompletionObserverModifier.swift */; };
+		E508356D274D9C2F006AEF28 /* GuestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508356C274D9C2F006AEF28 /* GuestModel.swift */; };
+		E5083570274D9E41006AEF28 /* LoginToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508356F274D9E41006AEF28 /* LoginToggle.swift */; };
+		E5083572274D9EDD006AEF28 /* PWSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5083571274D9EDD006AEF28 /* PWSwitch.swift */; };
+		E5083574274D9F38006AEF28 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5083573274D9F38006AEF28 /* LoginButton.swift */; };
+		E5083577274D9F76006AEF28 /* NoHighlightButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5083576274D9F75006AEF28 /* NoHighlightButtonStyle.swift */; };
+		E5083579274D9FA4006AEF28 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5083578274D9FA4006AEF28 /* Color.swift */; };
+		E508357B274DA050006AEF28 /* SelectSexAvatarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508357A274DA050006AEF28 /* SelectSexAvatarButton.swift */; };
+		E508357E274DA0B1006AEF28 /* Sex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508357D274DA0B1006AEF28 /* Sex.swift */; };
+		E5083580274DA157006AEF28 /* LoginSexPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508357F274DA157006AEF28 /* LoginSexPicker.swift */; };
 		E5D63D2E274C250F00214229 /* SwiftUI_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63D2D274C250F00214229 /* SwiftUI_TestApp.swift */; };
-		E5D63D30274C250F00214229 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63D2F274C250F00214229 /* ContentView.swift */; };
+		E5D63D30274C250F00214229 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63D2F274C250F00214229 /* LoginView.swift */; };
 		E5D63D32274C251100214229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D63D31274C251100214229 /* Assets.xcassets */; };
 		E5D63D35274C251100214229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D63D34274C251100214229 /* Preview Assets.xcassets */; };
 		E5D63D3F274C251100214229 /* SwiftUI_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63D3E274C251100214229 /* SwiftUI_TestTests.swift */; };
 		E5D63D49274C251100214229 /* SwiftUI_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63D48274C251100214229 /* SwiftUI_TestUITests.swift */; };
 		E5D63D4B274C251100214229 /* SwiftUI_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63D4A274C251100214229 /* SwiftUI_TestUITestsLaunchTests.swift */; };
+		E5E331DE27551A1B0012EE2C /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E5E331DD27551A1B0012EE2C /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5083558274D99A5006AEF28 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		E508355A274D9A19006AEF28 /* CreateGuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGuestView.swift; sourceTree = "<group>"; };
+		E508355C274D9A82006AEF28 /* UniversalTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalTextField.swift; sourceTree = "<group>"; };
+		E508355F274D9AFA006AEF28 /* KeyboardHeightWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHeightWorker.swift; sourceTree = "<group>"; };
+		E5083561274D9B32006AEF28 /* LoginBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBlurView.swift; sourceTree = "<group>"; };
+		E5083564274D9B72006AEF28 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		E5083567274D9BAD006AEF28 /* RoundedCornersShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersShape.swift; sourceTree = "<group>"; };
+		E5083569274D9BE0006AEF28 /* AnimationCompletionObserverModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCompletionObserverModifier.swift; sourceTree = "<group>"; };
+		E508356C274D9C2F006AEF28 /* GuestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestModel.swift; sourceTree = "<group>"; };
+		E508356F274D9E41006AEF28 /* LoginToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginToggle.swift; sourceTree = "<group>"; };
+		E5083571274D9EDD006AEF28 /* PWSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWSwitch.swift; sourceTree = "<group>"; };
+		E5083573274D9F38006AEF28 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		E5083576274D9F75006AEF28 /* NoHighlightButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoHighlightButtonStyle.swift; sourceTree = "<group>"; };
+		E5083578274D9FA4006AEF28 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E508357A274DA050006AEF28 /* SelectSexAvatarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSexAvatarButton.swift; sourceTree = "<group>"; };
+		E508357D274DA0B1006AEF28 /* Sex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sex.swift; sourceTree = "<group>"; };
+		E508357F274DA157006AEF28 /* LoginSexPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSexPicker.swift; sourceTree = "<group>"; };
 		E5D63D2A274C250F00214229 /* SwiftUI Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D63D2D274C250F00214229 /* SwiftUI_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TestApp.swift; sourceTree = "<group>"; };
-		E5D63D2F274C250F00214229 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5D63D2F274C250F00214229 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E5D63D31274C251100214229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5D63D34274C251100214229 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E5D63D3A274C251100214229 /* SwiftUI TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +79,7 @@
 		E5D63D44274C251100214229 /* SwiftUI TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D63D48274C251100214229 /* SwiftUI_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TestUITests.swift; sourceTree = "<group>"; };
 		E5D63D4A274C251100214229 /* SwiftUI_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5E331DD27551A1B0012EE2C /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +107,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5083555274D9889006AEF28 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				E508357C274DA0A2006AEF28 /* Generic */,
+				E5083556274D98A7006AEF28 /* Login */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		E5083556274D98A7006AEF28 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E508355A274D9A19006AEF28 /* CreateGuestView.swift */,
+				E5D63D2F274C250F00214229 /* LoginView.swift */,
+				E508356B274D9C12006AEF28 /* Model */,
+				E5083557274D9951006AEF28 /* Views */,
+				E508355E274D9AD2006AEF28 /* Workers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E5083557274D9951006AEF28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5083558274D99A5006AEF28 /* PlayerView.swift */,
+				E508355C274D9A82006AEF28 /* UniversalTextField.swift */,
+				E5083561274D9B32006AEF28 /* LoginBlurView.swift */,
+				E508356F274D9E41006AEF28 /* LoginToggle.swift */,
+				E5083573274D9F38006AEF28 /* LoginButton.swift */,
+				E508357A274DA050006AEF28 /* SelectSexAvatarButton.swift */,
+				E508357F274DA157006AEF28 /* LoginSexPicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E508355E274D9AD2006AEF28 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				E508355F274D9AFA006AEF28 /* KeyboardHeightWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		E5083563274D9B61006AEF28 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E5083564274D9B72006AEF28 /* View.swift */,
+				E5083578274D9FA4006AEF28 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E5083566274D9B90006AEF28 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5083567274D9BAD006AEF28 /* RoundedCornersShape.swift */,
+				E5083569274D9BE0006AEF28 /* AnimationCompletionObserverModifier.swift */,
+				E5083571274D9EDD006AEF28 /* PWSwitch.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		E508356B274D9C12006AEF28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E508356C274D9C2F006AEF28 /* GuestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5083575274D9F54006AEF28 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				E5083576274D9F75006AEF28 /* NoHighlightButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		E508357C274DA0A2006AEF28 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				E508357D274DA0B1006AEF28 /* Sex.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		E5083581274DA2A0006AEF28 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5E331DD27551A1B0012EE2C /* video.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E5D63D21274C250F00214229 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +225,13 @@
 			isa = PBXGroup;
 			children = (
 				E5D63D2D274C250F00214229 /* SwiftUI_TestApp.swift */,
-				E5D63D2F274C250F00214229 /* ContentView.swift */,
 				E5D63D31274C251100214229 /* Assets.xcassets */,
+				E5083566274D9B90006AEF28 /* Custom Views */,
+				E5083563274D9B61006AEF28 /* Extensions */,
+				E5083555274D9889006AEF28 /* Flows */,
 				E5D63D33274C251100214229 /* Preview Content */,
+				E5083581274DA2A0006AEF28 /* Resources */,
+				E5083575274D9F54006AEF28 /* Styles */,
 			);
 			path = "SwiftUI Test";
 			sourceTree = "<group>";
@@ -232,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5D63D35274C251100214229 /* Preview Assets.xcassets in Resources */,
+				E5E331DE27551A1B0012EE2C /* video.mp4 in Resources */,
 				E5D63D32274C251100214229 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +392,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D63D30274C250F00214229 /* ContentView.swift in Sources */,
+				E5083565274D9B72006AEF28 /* View.swift in Sources */,
+				E5083559274D99A5006AEF28 /* PlayerView.swift in Sources */,
+				E5083577274D9F76006AEF28 /* NoHighlightButtonStyle.swift in Sources */,
+				E508355D274D9A82006AEF28 /* UniversalTextField.swift in Sources */,
+				E5083568274D9BAD006AEF28 /* RoundedCornersShape.swift in Sources */,
+				E5083579274D9FA4006AEF28 /* Color.swift in Sources */,
+				E508357B274DA050006AEF28 /* SelectSexAvatarButton.swift in Sources */,
+				E508356D274D9C2F006AEF28 /* GuestModel.swift in Sources */,
+				E508357E274DA0B1006AEF28 /* Sex.swift in Sources */,
+				E5083580274DA157006AEF28 /* LoginSexPicker.swift in Sources */,
+				E5D63D30274C250F00214229 /* LoginView.swift in Sources */,
+				E5083572274D9EDD006AEF28 /* PWSwitch.swift in Sources */,
+				E508356A274D9BE0006AEF28 /* AnimationCompletionObserverModifier.swift in Sources */,
+				E5083570274D9E41006AEF28 /* LoginToggle.swift in Sources */,
+				E5083574274D9F38006AEF28 /* LoginButton.swift in Sources */,
 				E5D63D2E274C250F00214229 /* SwiftUI_TestApp.swift in Sources */,
+				E508355B274D9A19006AEF28 /* CreateGuestView.swift in Sources */,
+				E5083562274D9B32006AEF28 /* LoginBlurView.swift in Sources */,
+				E5083560274D9AFA006AEF28 /* KeyboardHeightWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
