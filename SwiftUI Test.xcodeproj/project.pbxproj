@@ -196,6 +196,7 @@
 		E5083581274DA2A0006AEF28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E5D63D31274C251100214229 /* Assets.xcassets */,
 				E5E331DD27551A1B0012EE2C /* video.mp4 */,
 			);
 			path = Resources;
@@ -225,7 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				E5D63D2D274C250F00214229 /* SwiftUI_TestApp.swift */,
-				E5D63D31274C251100214229 /* Assets.xcassets */,
 				E5083566274D9B90006AEF28 /* Custom Views */,
 				E5083563274D9B61006AEF28 /* Extensions */,
 				E5083555274D9889006AEF28 /* Flows */,
